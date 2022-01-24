@@ -1,5 +1,10 @@
-# José Ricardo Desales Santos (@rdesales)
-## Software Engineer at **HCL Software**
+# Squad Nº2 
+## Members:
+- Javier Serrano
+- José Valdovinos
+- Kevin Ibarra
+- Ricardo Desales (@rdesales)
+## Software Engineers **@HCL Software**
 =======================================
 
 ### Java Training **(January-April 2021)**
