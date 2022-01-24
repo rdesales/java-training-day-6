@@ -35,11 +35,17 @@ public class Directorio implements File{
 
     @Override
     public String toString() {
+
+        String directory = "";
+        for (File file : files) {
+            directory += file.toString() + "\n";
+        }
+
         return "Directorio{" +
-                "name='" + name + '\'' +
-                ", size=" + size +
-                ", date='" + date + '\'' +
-                ", files=" + files +
-                '}';
+                "\nname='" + name + '\'' +
+                "\nsize=" + getSize() +
+                "\ndate='" + date + '\'' +
+                "\nfiles= " + directory +
+                "}";
     }
 }

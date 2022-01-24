@@ -11,6 +11,6 @@ public class Main {
         directorio.addFile(mp3);
         directorio.addFile(pdf);
 
-        System.out.println("Tamaño directorio " + directorio.getSize());
+        System.out.println("Tamaño directorio " + directorio);
     }
 }

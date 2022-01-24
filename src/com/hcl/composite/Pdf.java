@@ -22,4 +22,13 @@ public class Pdf implements File{
     public String getCreationDate() {
         return date;
     }
+
+    @Override
+    public String toString() {
+        return "Pdf{" +
+                "name='" + name + '\'' +
+                ", size=" + size +
+                ", date='" + date + '\'' +
+                '}';
+    }
 }
